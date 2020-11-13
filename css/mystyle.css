@@ -1,0 +1,241 @@
+.icon-fab {
+    font-size: 300%;
+}
+
+  
+  
+body {
+    font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+      'Segoe UI Symbol', 'Noto Color Emoji';
+    padding-top: 54px;
+    color: #adb5bd;
+    margin: 0;
+   
+  }
+  
+  @media (min-width: 992px) {
+    body {
+      padding-top: 0;
+      padding-left: 17rem;
+      background-color: #9b969633 !;
+    }
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont,
+      'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+      'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #eedddd;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+  }
+  
+  h2 {
+    font-size: 3.5rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+  
+  p.lead {
+    font-size: 1.15rem;
+    font-weight: 400;
+  }
+  
+  .subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont,
+      'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+      'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 1.5rem;
+    color: rgb(59, 216, 195);
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: rgba(255, 255, 255, 0.952) !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons a:hover {
+    background-color: rgb(59, 216, 195);
+  }
+  
+  .dev-icons {
+    font-size: 3rem;
+  }
+  
+  .dev-icons .list-inline-item i:hover {
+    color: rgb(59, 216, 195);
+  }
+  
+  #sideNav .navbar-nav .nav-item .nav-link {
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+  }
+  
+  #sideNav .navbar-toggler:focus {
+    outline-color: rgb(59, 216, 195);
+  }
+
+  @media (min-width: 992px) {
+    #sideNav {
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      width: 17rem;
+      height: 100vh;
+    }
+    #sideNav .navbar-brand {
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem;
+    }
+    #sideNav .navbar-brand .img-profile {
+      max-width: 10rem;
+      max-height: 10rem;
+      border: 0.5rem solid #ffffff33;
+    }
+
+    #sideNav .navbar-collapse .navbar-nav {
+      flex-direction: column;
+      width: 100%;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item {
+      display: block;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+      display: block;
+    }
+  }
+
+  section.resume-section {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    background-color: rgb(43, 44, 44) !important;
+  }
+  
+  section.resume-section .resume-item .resume-date {
+    min-width: none;
+  }
+  
+  @media (min-width: 768px) {
+    section.resume-section {
+      min-height: 100vh;
+    }
+    section.resume-section .resume-item .resume-date {
+      min-width: 18rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    section.resume-section {
+      padding-top: 3rem !important;
+      padding-bottom: 3rem !important;
+    }
+  }
+  
+  .bg-primary {
+    background-color: #18191a !important;
+  }
+  
+  .text-primary {
+    color: rgb(59, 216, 195) !important;
+  }
+  
+  a {
+    color: rgb(59, 216, 195);
+  }
+  
+  a:hover,
+  a:focus,
+  a:active {
+    color: rgb(59, 216, 195);
+  }
+  
+  .card {
+    width: 18rem;
+    margin: 20px;
+  }
+  
+  .cardfooter {
+    color: #aaa;
+  }
+  
+  .card-title {
+    color: #1abc9c;
+  }
+  
+  .card-link,
+  .number,
+  .name {
+    color: aliceblue;
+  }
+  
+  .card-subtitle {
+    color: aliceblue !important;
+  }
+  .card-link:hover {
+    color: #1abc9c !important;
+  }
+  
+  .card-title:hover {
+    color: aliceblue;
+  }
+  .v-ripple:hover {
+    background-color: aliceblue;
+    color: #1abc9c;
+  }
+  
+  .v-ripple {
+    cursor: default;
+    height: 32px;
+    justify-content: space-between;
+    padding: 0 12px;
+    white-space: nowrap;
+    z-index: 1;
+    align-items: center;
+    border-radius: 28px;
+    display: inline-flex;
+    vertical-align: middle;
+    background-color: #1abc9c;
+    color: aliceblue;
+    font-size: 13px;
+    margin: 4px;
+    outline: none;
+    position: relative;
+  }
+  .imagemBloco {
+    max-width: 320px;
+    max-height: 205px;
+    width: auto;
+    height: auto;
+  }
